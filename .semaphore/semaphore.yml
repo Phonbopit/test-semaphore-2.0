@@ -25,4 +25,5 @@ blocks:
       jobs:
       - name: Jest
         commands:
+          - checkout 
           - npm test
